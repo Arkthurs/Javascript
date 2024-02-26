@@ -15,11 +15,6 @@ function pinigu_keitimas(eurai, kursas) {
     console.log(`${doleriai.toFixed(2)}$`)  // Išvedus palieka du skaicius po kablelio
 }
 
-/*
-Santrauka
-Keičia atsitiktinai sugeneruotą "Eurų" suma(nuo 1 iki 1000) į "Dolerių" sumą.
-Dauginama "Eurai" su 1.08
-*/
 pinigu_keitimas(eurai, kursas)
 
 
@@ -38,11 +33,6 @@ function pinigu_keitimas2(doleriai, kursas2) {
     console.log(`${eurai.toFixed(2)}$`)  // Išvedus palieka du skaičius po kablelio
 }
 
-/*
-Santrauka
-Keičia atsitiktinai sugeneruotą "Dolerių" suma(nuo 1 iki 1000) į "Eurų" sumą.
-Dauginama "Doleriai" su 0.92
-*/
 pinigu_keitimas2(doleriai, kursas2)
 
 
@@ -75,10 +65,6 @@ function bmiSkaiciuokle(ugis, svoris, virssvoris, normalus) {
     }
 }
 
-/*
-Santrauka
-Paimamas pateiktas ugis, svoris, viršvorio indikatorius ir normalaus svorio minimumas ir išvedama BMI su komentaru
-*/
 let rezultatas = bmiSkaiciuokle(ugis, svoris, virssvoris, normalus)
 console.log(rezultatas)
 
