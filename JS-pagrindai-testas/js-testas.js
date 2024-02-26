@@ -30,7 +30,7 @@ let kursas2 = 0.92
 
 function pinigu_keitimas2(doleriai, kursas2) {
     let eurai = doleriai * kursas2  // 1 $ keiciasi i 0.92 €
-    console.log(`${eurai.toFixed(2)}$`)  // Išvedus palieka du skaičius po kablelio
+    console.log(`${eurai.toFixed(2)}€`)  // Išvedus palieka du skaičius po kablelio
 }
 
 pinigu_keitimas2(doleriai, kursas2)
